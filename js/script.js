@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 const darkModeToggle = document.querySelector("dark-mode-toggle");
 
 // Set the mode to light
@@ -34,3 +35,19 @@ document.addEventListener("load", (e) => {
     darkModeToggle.mode = "light";
   }
 });
+=======
+let isDarkMode = false;
+function toggleTheme() {
+  let theme = document.querySelector(".theme-switch");
+  isDarkMode = theme.classList.toggle("active").valueOf();
+
+  console.log("isDarkMode: " + isDarkMode);
+
+  let root = document.querySelector(":root");
+  if (isDarkMode) {
+    root.style.setProperty("--body-background", "#1e1e1e");
+  } else {
+    root.style.setProperty("--body-background", "#f5f5f5");
+  }
+}
+>>>>>>> Stashed changes

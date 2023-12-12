@@ -1,4 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=poppins:600);
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 @import url(variables.css);
 
 .dark-mode {
@@ -73,6 +75,7 @@ h1 {
   font-weight: 600;
   font-size: 3.5em;
 }
+<<<<<<< Updated upstream
 
 p {
   font-family: "Poppins", sans-serif;
@@ -130,3 +133,5 @@ dark-mode-toggle {
 .talen-die-wij-kunnen-container img:not(hover) {
   opacity: 1;
 }
+=======
+>>>>>>> Stashed changes
