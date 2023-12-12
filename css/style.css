@@ -4,11 +4,13 @@
 .dark-mode {
   --background: var(--dark-background-color);
   --text: var(--dark-text-color);
+  --talen-die-wij-kunnen-color: rgb(117, 175, 160, 1);
 }
 
 .light-mode {
   --background-color: var(--light-background-color);
   --text: var(--light-text-color);
+  --talen-die-wij-kunnen-color: rgb(17, 25, 40, 1);
 }
 
 .dark-mode .header-logo {
@@ -111,4 +113,20 @@ dark-mode-toggle {
   border-radius: 10px;
   width: 100px;
   height: 100px;
+}
+
+.dark-mode .talen-die-wij-kunnen-container img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  z-index: 10;
+}
+
+.talen-die-wij-kunnen-container img:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgb(106, 9, 144, 1);
+  z-index: 10;
+}
+
+.talen-die-wij-kunnen-container img:not(hover) {
+  opacity: 1;
 }
