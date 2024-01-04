@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 const darkModeToggle = document.querySelector("dark-mode-toggle");
 
 // Set the mode to light
@@ -35,7 +34,7 @@ document.addEventListener("load", (e) => {
     darkModeToggle.mode = "light";
   }
 });
-=======
+
 let isDarkMode = false;
 function toggleTheme() {
   let theme = document.querySelector(".theme-switch");
@@ -50,4 +49,20 @@ function toggleTheme() {
     root.style.setProperty("--body-background", "#f5f5f5");
   }
 }
->>>>>>> Stashed changes
+
+function changeLanguage(wishLang, targetFile) {
+    switch (wishLang) {
+        case "nl":
+            window.location.href = "../nl/" + targetFile;
+            return;
+        case "en":
+            window.location.href = "../en/" + targetFile;
+            return;
+        case "fr":
+            window.location.href = "../fr/" + targetFile;
+            return;
+        default:
+            console.log("Unknown language: " + wishLang);
+            break;
+    }
+}

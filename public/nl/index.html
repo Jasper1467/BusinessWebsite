@@ -4,13 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepagina</title>
 
     <link rel="stylesheet" href="../../css/style.css">
-
-    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
-    <script defer src="../../js/script.js"></script>
-
-    <title>Home</title>
 </head>
 
 <body>
@@ -23,9 +19,19 @@
                 <li><a href="#">Projecten</a></li>
 
                 <li><dark-mode-toggle></dark-mode-toggle></li>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Taal</button>
+                    <div class="dropdown-content">
+                        <button onclick="changeLanguage('nl', 'index.html')">Nederlands</button>
+                        <button onclick="changeLanguage('en', 'index.html')">Engels</button>
+                        <button onclick="changeLanguage('fr', 'index.html')">Frans</button>
+                    </div>
+                </div>
             </ul>
         </nav>
     </header>
+
     <main>
         <div class="over-ons-container-min">
             <h1>Over Ons</h1>
@@ -34,18 +40,29 @@
             </p>
         </div>
 
+
+        <h1>Talen die wij kunnen</h1>
         <div class="talen-die-wij-kunnen-container">
-            <ul>
-                <h1>Talen die wij kunnen</h1>
-
+            <figure>
                 <img src="../img/javascript.png" alt="Javascript">
+                <figcaption style="font-size: x-large;">Javascript</figcaption>
+            </figure>
+            <figure>
                 <img src="../img/php.png" alt="PHP">
-                <img src="../img/cpp.png" alt="C++">
+                <figcaption>PHP</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/cpp.png" alt="CPlusPlus">
+                <figcaption>C++</figcaption>
+            </figure>
+            <figure>
                 <img src="../img/csharp.png" alt="CSharp">
+                <figcaption>C#</figcaption>
+            </figure>
+            <figure>
                 <img src="../img/python.png" alt="Python">
-
-            </ul>
-
+                <figcaption>Python</figcaption>
+            </figure>
         </div>
     </main>
 </body>
