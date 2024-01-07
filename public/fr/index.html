@@ -1,11 +1,101 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Page d'accueil</title>
+
     <link rel="stylesheet" href="../../css/style.css">
+
+    <script defer src="../../js/script.js"></script>
+
+    <script defer src="../../js/dark-mode-toggle.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <img class="header-logo" src="../img/logo.png" alt="PegaSoft logo">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="bedrijf.html">Entreprise</a></li>
+                <li><a href="projecten.html">Projets</a></li>
+
+                <li><dark-mode-toggle></dark-mode-toggle></li>
+
+                <div class="dropdown">
+                    <button class="dropbtn">Taal</button>
+                    <div class="dropdown-content">
+                        <button onclick="changeLanguage('nl', 'index.html')"><img src="../img/nl.jpg"
+                                alt="Nederlands"></button>
+                        <button onclick="changeLanguage('en', 'index.html')"><img src="../img/en.jpg"
+                                alt="Engels"></button>
+                        <button onclick="changeLanguage('fr', 'index.html')"><img src="../img/fr.jpg"
+                                alt="Frans"></button>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="over-ons-container-min">
+            <h1>À propos de nous</h1>
+            <p>
+                PegaSoft est une entreprise dynamique spécialisée dans la conception et le développement de
+                <strong>solutions logicielles</strong> de haute qualité. Axée sur l'innovation et le progrès
+                technologique, PegaSoft s'efforce de <strong>construire</strong> un <strong>logiciel sur mesure</strong>
+                qui répond aux besoins spécifiques de ses clients. L'équipe expérimentée de professionnels chez PegaSoft
+                associe <strong>expertise et créativité</strong> pour fournir des produits logiciels fiables et
+                efficaces qui soutiennent les objectifs commerciaux de leurs clients.
+            </p>
+        </div>
+
+
+        <h1>Les langues que nous connaissons</h1>
+        <div class="talen-die-wij-kunnen-container">
+            <figure>
+                <img src="../img/javascript.png" alt="Javascript">
+                <figcaption style="font-size: x-large;">Javascript</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/php.png" alt="PHP">
+                <figcaption>PHP</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/cpp.png" alt="CPlusPlus">
+                <figcaption>C++</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/csharp.png" alt="CSharp">
+                <figcaption>C#</figcaption>
+            </figure>
+            <figure>
+                <img src="../img/python.png" alt="Python">
+                <figcaption>Python</figcaption>
+            </figure>
+        </div>
+
+        <div class="bedrijf-project-container">
+
+            <figure class="bedrijf-project-item">
+                <h2>Entreprise</h2>
+                <br>
+                <img src="../img/bedrijf-1995408920.jpg" alt="bedrijf afbeelding">
+                <figcaption><a href="bedrijf.html">Entreprise</a></figcaption>
+            </figure>
+
+            <figure class="bedrijf-project-item">
+                <h2>Project</h2>
+                <br>
+                <img src="../img/project-manager-roll-1601366624.jpg" alt="bedrijf afbeelding">
+                <figcaption><a href="projecten.html">Projets</a></figcaption>
+            </figure>
+        </div>
+    </main>
+
+
 </body>
+
 </html>
