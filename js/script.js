@@ -34,3 +34,35 @@ document.addEventListener("load", (e) => {
     darkModeToggle.mode = "light";
   }
 });
+
+let isDarkMode = false;
+function toggleTheme() {
+  let theme = document.querySelector(".theme-switch");
+  isDarkMode = theme.classList.toggle("active").valueOf();
+
+  console.log("isDarkMode: " + isDarkMode);
+
+  let root = document.querySelector(":root");
+  if (isDarkMode) {
+    root.style.setProperty("--body-background", "#1e1e1e");
+  } else {
+    root.style.setProperty("--body-background", "#f5f5f5");
+  }
+}
+
+function changeLanguage(wishLang, targetFile) {
+    switch (wishLang) {
+        case "nl":
+            window.location.href = "../nl/" + targetFile;
+            return;
+        case "en":
+            window.location.href = "../en/" + targetFile;
+            return;
+        case "fr":
+            window.location.href = "../fr/" + targetFile;
+            return;
+        default:
+            console.log("Unknown language: " + wishLang);
+            break;
+    }
+}
