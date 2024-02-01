@@ -4,20 +4,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="PegaSoft ontwikkelt intuïtieve, op maat gemaakte software die
+                         bedrijfsprocessen vereenvoudigt en innovatie stimuleert.
+                         Hun deskundige team levert gebruiksvriendelijke oplossingen die naadloos
+                          in elke bedrijfsomgeving passen.">
+    <meta name="keywords" content="software, software development, software engineer, software engineer leuven">
+    <meta name="author" content="PegaSoft">
+
     <title>Homepagina</title>
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
 
-    <script defer src="node_modules/jquery/dist/jquery.js"></script>
+    <script defer src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
 
     <script defer src="js/script.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="icon" type="image/ico" href="img/logo.ico">
+
 </head>
 
-<body>
+<body class="d-flex flex-column vh-100">
     <div id="preloader">
         <div class="preloader-container">
             <div class="spinner">
@@ -28,33 +39,24 @@
         </div>
     </div>
 
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light shadow p-3">
-            <ul class="navbar-nav row justify-content-between">
-                <li><a class="nav-link text-white" href="index.html">Home</a></li>
-                <li><a class="nav-link text-white" href="overons.html">Over ons</a></li>
-                <li><a class="nav-link text-white" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <?php include 'private/header.php'; ?>
 
     <main>
         <div class="container">
             <div class="row justify-content-center align-items-center">
                 <img class="col" src="img/logo.png" alt="logo">
-                <div class="col text-center">
+                <div class="col text-center text-white">
                     <h1>Over ons</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga dicta, vero debitis cumque nobis
-                        animi aliquid commodi odit enim perspiciatis soluta similique beatae nam voluptate, placeat hic
-                        nesciunt a ad.</p>
+                    <p>PegaSoft ontwikkelt intuïtieve, op maat gemaakte software die
+                        bedrijfsprocessen vereenvoudigt en innovatie stimuleert.
+                        Hun deskundige team levert gebruiksvriendelijke oplossingen die naadloos
+                        in elke bedrijfsomgeving passen.</p>
                 </div>
             </div>
         </div>
     </main>
 
-    <footer class="footer text-white shadow fixed-bottom p-3">
-        <p class="text-center">Copyright &copy; 2024. All rights reserved.</p>
-    </footer>
+    <?php include 'private/footer.php'; ?>
 </body>
 
 </html>
