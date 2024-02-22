@@ -90,12 +90,12 @@ hr {
 }
 
 .btn.btn-primary {
-  background: #12AAFF;
+  background: #1ba819;
 }
 
 .btn.btn-primary:hover,
 .btn.btn-primary:focus {
-  background: #429DD0;
+  background: #4be848;
 }
 
 .column-title {
@@ -175,6 +175,16 @@ ul.nostyle i {
 /*************************
 *******Header******
 **************************/
+
+.navbar-header .navbar-brand {
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-justify: auto;
+  font-size: 4rem;
+  margin: auto;
+  color: #fff;
+}
 
 #main-nav.navbar-default {
   background: #FFFFFF;
