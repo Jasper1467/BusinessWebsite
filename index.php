@@ -158,13 +158,13 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
     <section id="team">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Our Team</h2>
+                <h2 class="section-title wow fadeInDown">Ons Team</h2>
                 <p class="wow fadeInDown">Ons team bij PegaSoft bestaat uit gepassioneerde en
                     deskundige professionals die zich inzetten om hoogwaardige softwareoplossingen te leveren die
                     voldoen aan de unieke behoeften van onze klanten.</p>
             </div>
             <div class="row" data-anim-type="fade-in-up">
-
+                <div class="col-md-1 col-lg-1"></div> <!-- ghetto margin fix -->
                 <div class="col-md-6 col-lg-3 text-center">
                     <div class="team-wrapper">
                         <div class="team-inner" style="background-image: url('images/team/01.jpg')">
@@ -193,6 +193,7 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-6 col-lg-3 text-center">
                     <div class="team-wrapper">
                         <div class="team-inner" style="background-image: url('images/team/03.jpg')">
@@ -279,7 +280,7 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
     <section id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Pricing</h2>
+                <h2 class="section-title wow fadeInDown">Prijzen</h2>
                 <p class="wow fadeInDown">
 Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
             </div>

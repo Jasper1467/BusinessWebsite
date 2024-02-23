@@ -10,7 +10,7 @@
                 </button>
                 <!-- <a class="navbar-brand" href="index.html"><img class="logo-header" src="images/logo.png" alt="logo"></a> -->
                 <a class="navbar-brand" href="index.html">
-                    <img src="../images/logo.png" alt="" style="max-width: 150px;">
+                    <a href="index.html"><img src="../images/logo.png" alt="PegaSoft" style="max-width: 150px;"></a>
                 </a>
             </div>
 
