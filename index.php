@@ -59,8 +59,8 @@
                 <div class="col-md-6 wp1 animated fadeInUp">
                     <p>Welkom bij Pegasoft Wij zijn een toonaangevend bedrijf dat gespecialiseerd is in het ontwikkelen van op maat gemaakte websites en software. Ons team bestaat uit ervaren professionals die gedreven zijn door technologie en innovatie. Of u nu een start-up bent die behoefte heeft aan een professionele en gebruiksvriendelijke website, of een gevestigd bedrijf dat op zoek is naar maatwerksoftware om uw processen te verbeteren, bij Pegasoft hebben we de perfecte oplossing voor u. Wij geloven in het leveren van hoogwaardige producten die voldoen aan de behoeften en verwachtingen van onze klanten. Vanaf het eerste contact tot de oplevering van het eindproduct kunt u rekenen op een persoonlijke en professionele benadering van ons team.
 
-Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geoptimaliseerd voor maximale prestaties op alle apparaten. We begrijpen het belang van een goede gebruikerservaring en zorgen ervoor dat uw website eenvoudig navigeerbaar en intuïtief is voor uw bezoekers. Neem vandaag nog contact met ons op en ontdek wat wij voor uw bedrijf kunnen betekenen!</p>
-                   
+                        Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geoptimaliseerd voor maximale prestaties op alle apparaten. We begrijpen het belang van een goede gebruikerservaring en zorgen ervoor dat uw website eenvoudig navigeerbaar en intuïtief is voor uw bezoekers. Neem vandaag nog contact met ons op en ontdek wat wij voor uw bedrijf kunnen betekenen!</p>
+
                     <br><a href="#pricing" class="download-btn">Prijzen</a>
                 </div>
                 <div class="col-md-6">
@@ -158,13 +158,13 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
     <section id="team">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Our Team</h2>
+                <h2 class="section-title wow fadeInDown">Ons Team</h2>
                 <p class="wow fadeInDown">Ons team bij PegaSoft bestaat uit gepassioneerde en
                     deskundige professionals die zich inzetten om hoogwaardige softwareoplossingen te leveren die
                     voldoen aan de unieke behoeften van onze klanten.</p>
             </div>
             <div class="row" data-anim-type="fade-in-up">
-
+                <div class="col-md-1 col-lg-1"></div> <!-- ghetto margin fix -->
                 <div class="col-md-6 col-lg-3 text-center">
                     <div class="team-wrapper">
                         <div class="team-inner" style="background-image: url('images/team/01.jpg')">
@@ -174,7 +174,7 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
                             <h3> Jasper</h3>
                             <h5> <strong> Founder &amp; CEO </strong></h5>
                             <p>
-                            Jasper is de oprichter van het bedrijf en zorgt ervoor dat alles in goeie banen geleid wordt.
+                                Jasper is de oprichter van het bedrijf en zorgt ervoor dat alles in goeie banen geleid wordt.
                             </p>
                         </div>
                     </div>
@@ -188,11 +188,12 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
                             <h3> Axel</h3>
                             <h5> <strong> Manager &amp; Designer </strong></h5>
                             <p>
-                            Axel zorgt ervoor dat alle financieële zaken geregeld worden en helpt mee met het ontwerpen van onze producten.
+                                Axel zorgt ervoor dat alle financieële zaken geregeld worden en helpt mee met het ontwerpen van onze producten.
                             </p>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-6 col-lg-3 text-center">
                     <div class="team-wrapper">
                         <div class="team-inner" style="background-image: url('images/team/03.jpg')">
@@ -202,7 +203,7 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
                             <h3> Aswin</h3>
                             <h5> <strong> Developer &amp; Designer </strong></h5>
                             <p>
-                            Aswin is de Developer van het bedrijf en helpt ook met het ontwerpen van onze producten.
+                                Aswin is de Developer van het bedrijf en helpt ook met het ontwerpen van onze producten.
                             </p>
                         </div>
                     </div>
@@ -220,54 +221,43 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
 
             <div class="text-center">
                 <ul class="portfolio-filter">
-                    <li><a class="active" href="#" data-filter="*">All Works</a></li>
-                    <li><a href="#" data-filter=".designing">Designing</a></li>
-                    <li><a href="#" data-filter=".mobile">Mobile App</a></li>
-                    <li><a href="#" data-filter=".development">Development</a></li>
+                    <li><a class="active" href="#" data-filter="*">Alle talen</a></li>
+                    <li><a href="#" data-filter=".website">Website</a></li>
+                    <li><a href="#" data-filter=".software"></a>Software</li>
+                    <!-- <li><a href="#" data-filter=".development"></a></li> -->
                 </ul><!--/#portfolio-filter-->
             </div>
 
             <div class="portfolio-items">
-                <div class="portfolio-item designing">
+                <div class="portfolio-item website">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/hairlock.png" alt="">
+                        <img class="img-responsive" src="images/portfolio/php.png" alt="">
                         <div class="portfolio-info">
-                            <h3>Hairlock</h3>
-                            Een website voor een kapper
-                            <a class="preview" href="images/portfolio/hairlock.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <h3>PHP</h3>
+                            Een programmeer taal voor websites
+                            <a class="preview" href="images/portfolio/php.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item mobile development">
+                <div class="portfolio-item website software">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/02.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/javascript.png" alt="">
                         <div class="portfolio-info">
-                            <h3>Project Name</h3>
-                            Some description..
-                            <a class="preview" href="images/portfolio/02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <h3>JavaScript</h3>
+                            
+                            <a class="preview" href="images/portfolio/javascript.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
 
-                <div class="portfolio-item designing">
+                <div class="portfolio-item website software">
                     <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/03.jpg" alt="">
+                        <img class="img-responsive" src="images/portfolio/csharp.png" alt="">
                         <div class="portfolio-info">
-                            <h3>Project Name</h3>
-                            Some description..
-                            <a class="preview" href="images/portfolio/03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </div><!--/.portfolio-item-->
-
-                <div class="portfolio-item mobile">
-                    <div class="portfolio-item-inner">
-                        <img class="img-responsive" src="images/portfolio/04.jpg" alt="">
-                        <div class="portfolio-info">
-                            <h3>Project Name</h3>
-                            Some description..
-                            <a class="preview" href="images/portfolio/04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            <h3>C#</h3>
+                            
+                            <a class="preview" href="images/portfolio/csharp.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                         </div>
                     </div>
                 </div><!--/.portfolio-item-->
@@ -279,9 +269,9 @@ Onze websites zijn niet alleen visueel aantrekkelijk, maar ook responsief en geo
     <section id="pricing">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title wow fadeInDown">Pricing</h2>
+                <h2 class="section-title wow fadeInDown">Prijzen</h2>
                 <p class="wow fadeInDown">
-Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
+                    Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
             </div>
 
             <div class="row">
@@ -315,7 +305,7 @@ Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
                             <li class="plan-header">
                                 <div class="price-duration">
                                     <span class="price">
-                                    €4800
+                                        €4800
                                     </span>
                                     <span class="duration">
                                         per software programma
@@ -366,7 +356,7 @@ Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
                                         €250
                                     </span>
                                     <span class="duration">
-                                        per month
+                                        per maand
                                     </span>
                                 </div>
 
@@ -427,7 +417,7 @@ Hier onder vind u onze prijzen voor de diensten die wij aanbieden.</p>
                                 </div>
 
                                 <button type="submit" class="btn btn-primary">Versturen</button>
-                                
+
                             </form>
                         </div>
                     </div>
