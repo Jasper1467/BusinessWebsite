@@ -223,7 +223,7 @@
                 <ul class="portfolio-filter">
                     <li><a class="active" href="#" data-filter="*">Alle talen</a></li>
                     <li><a href="#" data-filter=".website">Website</a></li>
-                    <li><a href="#" data-filter=".software"></a>Software</li>
+                    <li><a href="#" data-filter=".software">Software</a></li>
                     <!-- <li><a href="#" data-filter=".development"></a></li> -->
                 </ul><!--/#portfolio-filter-->
             </div>
